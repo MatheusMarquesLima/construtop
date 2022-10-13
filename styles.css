@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#primeira-seção {
+  background-image: url("imagens/muro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#primeira-seção-conteudo {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+
+#titulo-primeira-seção {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#texto-primeira-seção {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nome {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#email {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#botão-envio {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: orange;
+  color: #000;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#segunda-seção {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo-segunda-seção {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+#imagens-e-textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#martelo-imagem {
+  width: 200px;
+  height: 200px;
+}
+
+#motivo {
+  font-size: 20px;
+}
+
+#parte-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#parte-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#terceira-seção {
+  background-image: url("imagens/muro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo-terceira-seção {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#sobre-nós {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#texto-terceira-seção {
+  font-size: 30px;
+  width: 60%;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#ferramentas-imagem {
+  width: 350px;
+  height: 350px;
+}
+
+#quarta-seção {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo-quarta-seção {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#como-trabalhamos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#texto-quarta-seção {
+  font-size: 30px;
+  width: 40%;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+#quinta-seção {
+  background-image: url("imagens/muro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo-quinta-seção {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#texto-quinta-seção {
+  font-size: 30px;
+  width: 60%;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+#pessoas-imagem {
+  width: 350px;
+  height: 350px;
+}
+
+#sexta-seção {
+  background-color: orange;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo-sexta-seção {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#texto-sexta-seção {
+  font-size: 30px;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#botão-contato {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: brown;
+  color: #000;
+  font-weight: 700;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+#texto-rodapé {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 20px;
+}
